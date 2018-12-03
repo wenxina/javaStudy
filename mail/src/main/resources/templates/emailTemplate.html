@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>SpringBoot邮件测试</title>
+</head>
+<body>
+    您好,这是我的个人博客网站,请点击下面的链接查看博客内容,<br/>
+    <a href="#" th:href="@{ https://wangyd.top/2018/07/22/{id}(id=${id}) }">我问这瓜保熟吗</a>
+</body>
+</html>
